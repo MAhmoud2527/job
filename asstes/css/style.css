@@ -1,0 +1,103 @@
+body{
+    background: #ddd;
+
+}
+.main-page{
+    padding: 20px;
+    margin: 20px;
+    border: solid 1px #ddd;
+    background: #fff;
+    box-shadow: 1px 6px 13px #00000080;
+    font-family: 'Nunito Sans', sans-serif;
+
+}
+.logo_img{
+    width: 300px;
+}
+
+.main_list{
+    padding-top: 10px;
+    
+}
+
+.tc-heading-style5 .heading-inner {
+    padding-bottom: 25px;
+}
+.tc-heading-style5 .heading-inner:before {
+    content: '';
+    position: absolute;
+    bottom: 15px;
+    height: 1px;
+    width: 50px;
+    background: #000;
+    left: 0;
+}
+.tc-heading-style5 .heading-inner:after {
+    content: '';
+    position: absolute;
+    bottom: 18px;
+    height: 1px;
+    width: 80px;
+    background: #000;
+    left: 0;
+}
+.tc-heading-style5.tc-heading-center {
+    text-align: center;
+}
+.tc-heading-style5.tc-heading-center .heading-inner:after,
+.tc-heading-style5.tc-heading-center .heading-inner:before {
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+.tc-heading-style5.tc-heading-right {
+    text-align: right;
+}
+.tc-heading-style5.tc-heading-right .heading-inner:after,
+.tc-heading-style5.tc-heading-right .heading-inner:before {
+    left: auto;
+    right: 0;
+}
+
+
+
+.tc-note-style2 {vertical-align: middle;padding: 2px;background-color: #fff;border-top: 3px solid #444;display: table;width: 100%;-webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);}
+.tc-note-style2 .note-icon {width: 58px;text-align: center;vertical-align: middle;font-size: 30px;margin-left: 38px;
+    margin-top: 10px;}
+.tc-note-style2 .note-desc {vertical-align: middle;padding-left: 15px;}
+.tc-note-style2 .note-desc h3 {margin: 9px 0 0px 0;font-size: 20px;}
+.tc-note-style2.tc-note-info {border-color: #3dc0f1;}
+.tc-note-style2.tc-note-info .note-icon {color: #3dc0f1;}
+.tc-note-style2.tc-note-success {border-color: #4CAF50;}
+.tc-note-style2.tc-note-success .note-icon {color: #4CAF50;}
+.tc-note-style2.tc-note-warning {border-color: #FF9800;}
+.tc-note-style2.tc-note-warning .note-icon {color: #FF9800;}
+.tc-note-style2.tc-note-danger {border-color: #ff5252;}
+.tc-note-style2.tc-note-danger .note-icon {color: #ff5252;}
+
+
+/*----------------------------
+    Button Common Styles
+------------------------------*/
+[class*="tcb-"] {min-width: 95px;padding: 11px 15px;display: inline-block;position: relative;font-size: 12px;font-weight: 400;line-height: 1;white-space: nowrap;vertical-align: middle;cursor: pointer;text-decoration: none !important;text-align: center;}
+.tcb-large {padding: 13px 20px;font-size: 14px;}
+.tcb-small {padding: 9px 12px;font-size: 11px;}
+.tcb-pill {-webkit-border-radius: 40px;border-radius: 40px;}
+.tcb-round {-webkit-border-radius: 5px;border-radius: 5px;}
+.tcb-fullwidth {width: 100%;-webkit-box-sizing: border-box;box-sizing: border-box;}
+
+
+/*------------------------------
+    Basic
+--------------------------------*/
+.tcb-basic {-webkit-transition: background-color .25s ease;transition: background-color .25s ease;border: 1px solid #f5f5f5;}
+
+.tcb-basic.tcb-warning {color: #fff;background-color: #f0ad4e;border-color: #f0ad4e;    font-size: 14px}
+.tcb-basic.tcb-warning:hover {color: #fff;background-color: #ec971f;border-color: #ec971f;}
+
+.modal-header .close {
+    padding: unset;
+    margin: unset;
+}
+.tcb-basic.tcb-black {color: #fff;background-color: #28373b;border-color: #28373b;font-size: 14px}
+.tcb-basic.tcb-black:hover {background-color: #131A1B;border-color: #131A1B;color: #fff;}
